@@ -16,6 +16,20 @@ FBOW (Fast Bag of Words) is an extremmely optimized version of the DBow2/DBow3 l
 	* Not yet implemented indexing of images. 
 
 ##
+## Usage
+```
+git clone https://github.com/pravinjaisawal/fbow.git
+cd fbow
+mkdir build && cd build
+cmake ..
+make
+cd ..
+```
+For running demo.cpp, please run from fbow folder:
+```
+./build/utils/demo orb ./utils/train_images ./utils/test_image/
+```
+##
 ## Citing
 
 If you use this project in academic research you must cite us. This project is part of the ucoslam project. Visit [ucoslam.com](http://ucoslam.com) for more information
